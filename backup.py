@@ -7,7 +7,6 @@ import argparse
 def parse_args():
     # Setting up parser and subparsers
     parser = argparse.ArgumentParser(prog="backup.py", description="Simple Linux backup script")
-    subparsers = parser.add_subparsers(dest="command")
 
     # Create the 'path' argument
     parser.add_argument(
